@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="282dp"
+            android:text="E-mail" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="60dp"
+            android:layout_y="368dp"
+            android:text="Process transaction" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_x="124dp"
+            android:layout_y="130dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+		<requestFocus />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="143dp"
+            android:text="Contact Name" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="190dp"
+            android:layout_height="54dp"
+            android:layout_x="116dp"
+            android:layout_y="174dp"
+            android:ems="10"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="174dp"
+            android:text="Shipping address" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="245dp"
+            android:text="Contact number" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_x="117dp"
+            android:layout_y="230dp"
+            android:ems="10"
+            android:inputType="phone" >
+
+            
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_x="118dp"
+            android:layout_y="273dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="18dp"
+            android:prompt="@string/spinner" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

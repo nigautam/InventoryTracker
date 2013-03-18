@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="56dp"
+            android:text="Wifi N router" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="96dp"
+            android:text="Wireless N card" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="83dp"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="00" />
+
+        <EditText
+            android:id="@+id/EditText3"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="123dp"
+            android:ems="10"
+            android:maxLength="2"
+            android:inputType="number"
+            android:text="00" />
+
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="136dp"
+            android:text="6 ft ethernet cable" />
+
+        <EditText
+            android:id="@+id/EditText4"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="163dp"
+            android:ems="10"
+            android:maxLength="2"
+            android:inputType="number"
+            android:text="00" />
+
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="176dp"
+            android:text="Signal booster" />
+
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="216dp"
+            android:text="120 GB Solid Sate Drive" />
+
+        <EditText
+            android:id="@+id/EditText6"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="243dp"
+            android:ems="10"
+            android:maxLength="2"
+            android:inputType="number"
+            android:text="00" />
+
+        <TextView
+            android:id="@+id/TextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="256dp"
+            android:text="4 GB RAM" />
+
+        <EditText
+            android:id="@+id/EditText7"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="283dp"
+            android:ems="10"
+            android:maxLength="2"
+            android:inputType="number"
+            
+            android:text="00" />
+
+        <TextView
+            android:id="@+id/TextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="296dp"
+            android:text="19&quot; LED Monitors" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="203dp"
+            android:maxLength="2"
+            android:ems="10"
+            android:inputType="number"
+            android:text="00" >
+
+            
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditText1"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="43dp"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="00" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="96dp"
+            android:layout_y="402dp"
+            android:text="Review Order" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="11dp"
+            android:layout_y="19dp"
+            android:text="Quantity" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="18dp"
+            android:text="Product" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>
