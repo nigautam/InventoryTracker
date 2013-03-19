@@ -1,0 +1,10 @@
+Fri, 15 Mar 2013 18:41:30 -0400
+doc/README_FOR_APP	Fri, 15 Mar 2013 18:04:56 -0400
+app/controllers/application_controller.rb	Fri, 15 Mar 2013 18:04:55 -0400
+app/controllers/inventory_controller.rb	Fri, 15 Mar 2013 18:12:08 -0400
+app/controllers/orders_controller.rb	Fri, 15 Mar 2013 18:12:05 -0400
+app/helpers/application_helper.rb	Fri, 15 Mar 2013 18:04:55 -0400
+app/helpers/inventory_helper.rb	Fri, 15 Mar 2013 18:10:57 -0400
+app/helpers/orders_helper.rb	Fri, 15 Mar 2013 18:10:13 -0400
+app/models/product.rb	Fri, 15 Mar 2013 18:30:22 -0400
+app/models/user.rb	Fri, 15 Mar 2013 18:23:03 -0400
