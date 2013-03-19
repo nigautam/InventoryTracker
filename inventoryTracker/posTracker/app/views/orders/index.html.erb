@@ -7,7 +7,6 @@
     <th>Productsku</th>
     <th>Orderquantity</th>
     <th>Orderprice</th>
-    <th>Description</th>
     <th></th>
     <th></th>
     <th></th>
@@ -20,7 +19,6 @@
     <td><%= order.productSKU %></td>
     <td><%= order.orderQuantity %></td>
     <td><%= order.orderPrice %></td>
-    <td><%= order.description %></td>
     <td><%= link_to 'Show', order %></td>
     <td><%= link_to 'Edit', edit_order_path(order) %></td>
     <td><%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>

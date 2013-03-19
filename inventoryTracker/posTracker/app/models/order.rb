@@ -1,3 +1,3 @@
 class Order < ActiveRecord::Base
-  attr_accessible :customerID, :employeeID, :orderPrice, :orderQuantity, :productSKU, :description
+  attr_accessible :customerID, :employeeID, :orderPrice, :orderQuantity, :productSKU
 end

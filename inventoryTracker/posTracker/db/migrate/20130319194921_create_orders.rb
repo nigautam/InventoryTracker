@@ -6,7 +6,6 @@ class CreateOrders < ActiveRecord::Migration
       t.integer :productSKU
       t.integer :orderQuantity
       t.integer :orderPrice
-      t.string  :description
 
       t.timestamps
     end
