@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  employeeID: 1
+  customerID: 1
+  productSKU: 1
+  orderQuantity: 1
+  orderPrice: 1
+
+two:
+  employeeID: 1
+  customerID: 1
+  productSKU: 1
+  orderQuantity: 1
+  orderPrice: 1

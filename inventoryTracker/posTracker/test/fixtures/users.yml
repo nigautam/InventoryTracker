@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fname: MyString
+  lname: MyString
+  address: MyString
+  employeeID: 1
+  management: false
+
+two:
+  fname: MyString
+  lname: MyString
+  address: MyString
+  employeeID: 1
+  management: false
