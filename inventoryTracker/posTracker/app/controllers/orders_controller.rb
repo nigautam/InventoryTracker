@@ -25,8 +25,7 @@ class OrdersController < ApplicationController
   # GET /orders/new.json
   def new
     @order = Order.new
-    @inventory = Inventory.all
-    @inventory.find(@order.productSKU)
+
     
     respond_to do |format|
       format.html # new.html.erb
